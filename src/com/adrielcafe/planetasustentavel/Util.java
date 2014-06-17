@@ -13,8 +13,8 @@ import com.google.gson.Gson;
 public class Util {
 	public static final Gson GSON = new Gson();
 	public static final String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.adrielcafe.planetasustentavel";
-	public static final String ABOUT_MESSAGE = "<b>Planeta Sustent·vel</b> È um software livre, seu cÛdigo fonte est· disponÌvel no <a href='https://github.com/adrielcafe/PlanetaSustentavel'>GitHub</a>.<br>O conte˙do foi extraÌdo do <a href='http://www.iteia.org.br/textos/almanaque-de-praticas-sustentaveis'>Almanaque de Praticas Sustent·veis</a>, sob licenÁa Creative Commons."
-											 + "<br><br>Desenvolvido por:<br>Adriel CafÈ (ac@adrielcafe.com)";
+	public static final String ABOUT_MESSAGE = "<b>Planeta Sustent√°vel</b> √© um software livre, seu c√≥digo fonte est√° dispon√≠vel no <a href='https://github.com/adrielcafe/PlanetaSustentavel'>GitHub</a>.<br>O conte√∫do foi extra√≠do do <a href='http://www.iteia.org.br/textos/almanaque-de-praticas-sustentaveis'>Almanaque de Praticas Sustent√°veis</a>, sob licen√ßa Creative Commons."
+											 + "<br><br>Desenvolvido por:<br>Adriel Caf√© (ac@adrielcafe.com)";
 	
 	public static String loadJSON(Context context, String path) {
         String json = null;

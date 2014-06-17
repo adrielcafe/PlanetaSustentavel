@@ -73,13 +73,13 @@ public class MainActivity extends Activity {
 		dbCidadaniaPlanetaria = Util.GSON.fromJson(Util.loadJSON(this, "db/7-cidadania-planetaria.json"), new TypeToken<List<String[]>>() {}.getType());
 		
 		List<String[]> menuItems = new ArrayList<>();
-		menuItems.add(new String[]{ R.drawable.menu_item_reeducacao_sustentavel + "", "Reeducação Sustentável"});
-		menuItems.add(new String[]{ R.drawable.menu_item_agua + "", "Água"});
+		menuItems.add(new String[]{ R.drawable.menu_item_reeducacao_sustentavel + "", "ReeducaÃ§Ã£o SustentÃ¡vel"});
+		menuItems.add(new String[]{ R.drawable.menu_item_agua + "", "Ãgua"});
 		menuItems.add(new String[]{ R.drawable.menu_item_transporte + "", "Transporte"});
-		menuItems.add(new String[]{ R.drawable.menu_item_alimentacao_saudavel + "", "Alimentação Saudável"});
-		menuItems.add(new String[]{ R.drawable.menu_item_bebes_ecologicos + "", "Bebês Ecológicos"});
+		menuItems.add(new String[]{ R.drawable.menu_item_alimentacao_saudavel + "", "AlimentaÃ§Ã£o SaudÃ¡vel"});
+		menuItems.add(new String[]{ R.drawable.menu_item_bebes_ecologicos + "", "BebÃªs EcolÃ³gicos"});
 		menuItems.add(new String[]{ R.drawable.menu_item_limpeza_higiene_pessoal + "", "Limpeza e Higiene"});
-		menuItems.add(new String[]{ R.drawable.menu_item_cidadania_planetaria + "", "Cidadania Planetária"});
+		menuItems.add(new String[]{ R.drawable.menu_item_cidadania_planetaria + "", "Cidadania PlanetÃ¡ria"});
 		
 		gridView = (GridView) findViewById(R.id.gridview);
 		gridView.setAdapter(new MainAdapter(this, menuItems));
