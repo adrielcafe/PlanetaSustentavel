@@ -3,16 +3,11 @@ package com.adrielcafe.planetasustentavel;
 import java.util.List;
 
 import android.content.Context;
-import android.net.Uri;
-import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainAdapter extends ArrayAdapter<String[]> {

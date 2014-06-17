@@ -5,8 +5,6 @@ import java.io.InputStream;
 import android.content.Context;
 import android.content.Intent;
 import android.text.Html;
-import android.view.View;
-import android.widget.ShareActionProvider;
 
 import com.google.gson.Gson;
 

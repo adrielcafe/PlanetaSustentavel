@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Planeta Sustentável</string>
+    <string name="splashscreen_title">Planeta\nSustentável</string>
     <string name="about">Sobre</string>
     <string name="close">Fechar</string>
 

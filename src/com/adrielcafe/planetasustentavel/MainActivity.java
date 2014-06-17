@@ -1,28 +1,19 @@
 package com.adrielcafe.planetasustentavel;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
 import android.app.Activity;
-import android.app.ActionBar;
-import android.app.AlertDialog;
-import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.text.Html;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.os.Build;
+
+import com.google.gson.reflect.TypeToken;
 
 public class MainActivity extends Activity {
 	private List<String[]> dbReeducacaoSustentavel;
@@ -40,7 +31,6 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 
 		overridePendingTransition(R.anim.open_activity, R.anim.close_activity);
-		getActionBar().setIcon(R.drawable.ic_launcher_white);
 		getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.greentheme_color)));
 		setContentView(R.layout.activity_main);
 		
