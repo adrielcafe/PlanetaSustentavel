@@ -1,3 +1,3 @@
-PlanetaSustentavel
+Planeta Sustentável
 ==================
 Aplicativo Android
